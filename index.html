@@ -1,0 +1,26 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+    <title>자바스크립트 실습</title>
+</head>
+<body>
+	<h1>자바스크립트 실습</h1>
+	<!-- html주석은 화살표--> 
+	<script>
+		// 변수와 함수 
+		// veriable and function
+        standadWeight(56,164);
+        standadWeight(70, 184);
+
+  function standadWeight(Weight, Height) {
+    var StandardWeight = (Height - 100) *0.9; 
+     var dietWeight = Weight - StandardWeight ;
+      var Text = "친구의 현재 몸무게는" + Weight + "kg이고, 표준체중은 " +StandardWeight + "kg입니다. 따라서 친구는 " +dietWeight + "kg를 감량해야합니다.";
+ console.log(Text);
+}
+
+	</script>
+</body>
+
+ 
+	
